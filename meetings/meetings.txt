@@ -1,0 +1,10 @@
+-----------------------------------------------------------------------------------------------------------------------
+
+2/15/24
+A3Test paper - https://arxiv.org/pdf/2302.10352.pdf
+Replicate A3Test - https://github.com/awsm-research/a3test
+Asif will provide access to the cluster (for model training and potentially cirumventing KotlinDL Arm64 issues)
+
+Proposed new thesis:
+Create a new repository for training a model on Kotlin code, similar to Methods2Test
+Training with the latest and greatest ML models (AthenaTest, GPT, A3Test, EvoSuite, RandLoop, etc)
