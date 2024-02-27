@@ -1,3 +1,47 @@
+2/27
+
+    * Misc read
+        - https://towardsdatascience.com/cracking-the-code-llms-354505c53295
+        - https://www.reddit.com/r/OpenAI/comments/160bbaq/meta_has_released_code_llama_although_gpt4/
+
+    * BART
+        - Text summarization, some comprehension
+        - https://arxiv.org/abs/1910.13461
+        - https://github.com/facebookresearch/fairseq/tree/main/examples/bart
+
+    * PLBART
+        - For code generation, code summarization, and code translation
+        - https://arxiv.org/abs/2103.06333
+        - https://huggingface.co/docs/transformers/en/model_doc/plbart
+        - Use of pretrained models (Java)
+        - To train a new model for Kotlin we will need resources
+        - Able to use nightly PyTorch build and use silicon GPU for fine tuning (tested and working)
+
+    * English Pre-training:
+        - https://huggingface.co/facebook/bart-large
+        - https://arxiv.org/pdf/1907.11692.pdf
+
+    * Code Llama
+        - https://scontent.fsan1-2.fna.fbcdn.net/v/t39.2365-6/369856151_1754812304950972_1159666448927483931_n.pdf?_nc_cat=107&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=9YuYDi0x4TgAX8tkzYe&_nc_ht=scontent.fsan1-2.fna&oh=00_AfB_fukEAScLupCoAQ5Lpie3IHZaNBMgCmPNNdrSXaTr_g&oe=65E1E90F
+        - https://huggingface.co/blog/codellama?source=post_page-----7d40e6ad33b4--------------------------------
+        - https://github.com/facebookresearch/llama/blob/main/Responsible-Use-Guide.pdf
+        - https://github.com/ragntune/code-llama-finetune/blob/main/fine-tune-code-llama.ipynb
+        - https://www.maginative.com/article/how-to-get-started-with-code-llama/
+        - https://github.com/ollama/ollama (many top llms)
+        - https://colab.research.google.com/drive/1GH8PW9-zAe4cXEZyOIE-T9uHXblIldAg?usp=sharing
+        - https://generativeai.pub/how-to-run-code-llama-in-free-colab-notebook-a-step-by-step-guide-with-code-f8957f42b4d9
+
+    * Interesting idea
+        - Use Code Llama as pretrained model, and see if I can fine tune it to for unit test generation.
+        - How possible is to train Code Llama on Kotlin and Swift? Easiest would be just to stick with Java and use
+         pretrained model out of the box, perhaps make a POC ask for company resources to train with high powered GPUs.
+        - Use developer feedback as reward mechanism.
+
+    * POC
+        - Generate a Java unit test with Code Llama
+        - Web app
+
+
 -----------------------------------------------------------------------------------------------------------------------
 
 2/15/24
