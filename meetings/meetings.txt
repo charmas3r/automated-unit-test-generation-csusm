@@ -1,3 +1,26 @@
+3/12
+    * https://medium.com/@woyera/9-components-you-need-to-build-a-custom-ai-chat-bot-on-your-own-data-7a3e212ca2d32/15/24
+    * https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF
+    * Demo of basic Code Llama in action (to create unit tests in a language).
+    * How to fine tune? How to create a quality data set and improve performance?
+    * Is it possible to use reinforcement learning on a system like this to improve over time?
+    * Metrics to how well it performs vs std models.
+    * Performance
+    * Readability - from a developer standpoint
+        - Naming for the test, naming for the test methods
+    * Does it work, do the tests run OK?
+    * Code coverage for the class/method under test?
+
+
+    Next meeting:
+
+    * Test 5 classes (different length, etc)
+    * Put together some data about how well it performs
+    * Put together a 1-2 page paper.
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
 2/27
 
     * Misc read
